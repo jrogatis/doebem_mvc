@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-07T01:36:07.109Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-07T01:36:07.109Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-07T01:36:07.109Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-07T01:36:07.109Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-07T01:36:07.109Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-07T01:36:07.109Z'
