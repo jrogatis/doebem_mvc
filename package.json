@@ -3,7 +3,7 @@
   "version": "0.8.0",
   "main": "server/index.js",
   "dependencies": {
-    "angular": "~1.6.4",
+    "angular": "~1.8.0",
     "angular-animate": "~1.6.4",
     "angular-aria": "~1.6.4",
     "angular-cookies": "~1.6.4",
@@ -37,7 +37,7 @@
     "crypto": "0.0.3",
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
-    "express-jwt": "^5.3.0",
+    "express-jwt": "^6.0.0",
     "express-mailer": "^0.3.1",
     "express-session": "^1.11.3",
     "fast-json-patch": "^1.0.0",
